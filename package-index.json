@@ -1,7 +1,7 @@
 {
     "packages": [
         {
-            "name": "SensiLab_Arduino",
+            "name": "sensilab",
             "maintainer": "Elliott Wilson",
             "websiteURL": "https://sensilab.monash.edu",
             "email": "elliott.wilson@monash.edu",
@@ -18,9 +18,9 @@
                         "online": "https://sensilab.monash.edu"
                     },
                     "url": "https://sensilab.github.io/board-index/packages/sensilab-arduino-samd-1.0.zip",
-                    "archiveFileName": "SensiLab_SAMD_1.0.zip",
+                    "archiveFileName": "sensilab-arduino-samd-1.0.zip",
                     "checksum": "SHA-256:8dac1617f2bb48fd174564170abd73a1fd555a81574e78cef6f8e83e13f150e6",
-                    "size": "658526",
+                    "size": "898071",
                     "boards": [
                         {
                             "name": "DrawBot"
