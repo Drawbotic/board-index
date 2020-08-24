@@ -48,7 +48,7 @@
                             "version": "4.5.0"
                         },
                         {
-                            "packager": "SensiLab_Arduino",
+                            "packager": "sensilab",
                             "name": "CMSIS-Atmel",
                             "version": "1.0.0-SensiLab"
                         },
