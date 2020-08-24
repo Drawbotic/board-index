@@ -17,13 +17,13 @@
                     "help": {
                         "online": "https://sensilab.monash.edu"
                     },
-                    "url": "https://elliott-wilson.com/drawbot/packages/SensiLab_SAMD_1.0.zip",
+                    "url": "https://sensilab.github.io/board-index/packages/sensilab-arduino-samd-1.0.zip",
                     "archiveFileName": "SensiLab_SAMD_1.0.zip",
-                    "checksum": "SHA-256:f0e5d21877742225703ffd9989954fe3fb1436de5bf8f81ebb3e23963851800e",
+                    "checksum": "SHA-256:8dac1617f2bb48fd174564170abd73a1fd555a81574e78cef6f8e83e13f150e6",
                     "size": "658526",
                     "boards": [
                         {
-                            "name": "DrawBot V3"
+                            "name": "DrawBot"
                         }
                     ],
                     "toolsDependencies": [
@@ -67,28 +67,28 @@
                     "systems": [
                         {
                             "host": "i686-mingw32",
-                            "url": "https://elliott-wilson.com/drawbot/packages/CMSIS-Atmel-1.0.0-SensiLab.zip",
+                            "url": "https://sensilab.github.io/board-index/tools/CMSIS-Atmel-1.0.0-SensiLab.zip",
                             "archiveFileName": "CMSIS-Atmel-1.0.0-SensiLab.zip",
                             "checksum": "SHA-256:1eeaf7e743cf9100696b8c451e5d51cd152723190ed20eacc7e2d97f22c70629",
                             "size": "3098086"
                         },
                         {
                             "host": "x86_64-pc-linux-gnu",
-                            "url": "https://elliott-wilson.com/drawbot/packages/CMSIS-Atmel-1.0.0-SensiLab.zip",
+                            "url": "https://sensilab.github.io/board-index/tools/CMSIS-Atmel-1.0.0-SensiLab.zip",
                             "archiveFileName": "CMSIS-Atmel-1.0.0-SensiLab.zip",
                             "checksum": "SHA-256:1eeaf7e743cf9100696b8c451e5d51cd152723190ed20eacc7e2d97f22c70629",
                             "size": "3098086"
                         },
                         {
                             "host": "i686-pc-linux-gnu",
-                            "url": "https://elliott-wilson.com/drawbot/packages/CMSIS-Atmel-1.0.0-SensiLab.zip",
+                            "url": "https://sensilab.github.io/board-index/tools/CMSIS-Atmel-1.0.0-SensiLab.zip",
                             "archiveFileName": "CMSIS-Atmel-1.0.0-SensiLab.zip",
                             "checksum": "SHA-256:1eeaf7e743cf9100696b8c451e5d51cd152723190ed20eacc7e2d97f22c70629",
                             "size": "3098086"
                         },
                         {
                             "host": "x86_64-apple-darwin",
-                            "url": "https://elliott-wilson.com/drawbot/packages/CMSIS-Atmel-1.0.0-SensiLab.zip",
+                            "url": "https://sensilab.github.io/board-index/tools/CMSIS-Atmel-1.0.0-SensiLab.zip",
                             "archiveFileName": "CMSIS-Atmel-1.0.0-SensiLab.zip",
                             "checksum": "SHA-256:1eeaf7e743cf9100696b8c451e5d51cd152723190ed20eacc7e2d97f22c70629",
                             "size": "3098086"
