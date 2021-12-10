@@ -1,29 +1,29 @@
 {
     "packages": [
         {
-            "name": "sensilab",
+            "name": "drawbotic",
             "maintainer": "Elliott Wilson",
-            "websiteURL": "https://sensilab.monash.edu",
+            "websiteURL": "https://drawbotic.io",
             "email": "elliott.wilson@monash.edu",
             "help": {
-                "online": "https://sensilab.monash.edu"
+                "online": "https://drawbotic.io"
             },
             "platforms": [
                 {
-                    "name": "SensiLab SAMD Boards",
+                    "name": "Drawbotic SAMD Boards",
                     "architecture": "samd",
                     "version": "1.0",
                     "category": "Contributed",
                     "help": {
-                        "online": "https://sensilab.monash.edu"
+                        "online": "https://drawbotic.io"
                     },
-                    "url": "https://sensilab.github.io/board-index/packages/sensilab-arduino-samd-1.0.zip",
-                    "archiveFileName": "sensilab-arduino-samd-1.0.zip",
+                    "url": "https://drawbotic.github.io/board-index/packages/drawbotic-arduino-samd-1.0.zip",
+                    "archiveFileName": "drawbotic-arduino-samd-1.0.zip",
                     "checksum": "SHA-256:8dac1617f2bb48fd174564170abd73a1fd555a81574e78cef6f8e83e13f150e6",
                     "size": "898071",
                     "boards": [
                         {
-                            "name": "DrawBot"
+                            "name": "DB-1"
                         }
                     ],
                     "toolsDependencies": [
@@ -48,9 +48,9 @@
                             "version": "4.5.0"
                         },
                         {
-                            "packager": "sensilab",
+                            "packager": "drawbotic",
                             "name": "CMSIS-Atmel",
-                            "version": "1.0.0-SensiLab"
+                            "version": "1.0.0-Drawbotic"
                         },
                         {
                             "packager": "arduino",
@@ -63,33 +63,33 @@
             "tools": [
                 {
                     "name": "CMSIS-Atmel",
-                    "version": "1.0.0-SensiLab",
+                    "version": "1.0.0-Drawbotic",
                     "systems": [
                         {
                             "host": "i686-mingw32",
-                            "url": "https://sensilab.github.io/board-index/tools/CMSIS-Atmel-1.0.0-SensiLab.zip",
-                            "archiveFileName": "CMSIS-Atmel-1.0.0-SensiLab.zip",
+                            "url": "https://drawbotic.github.io/board-index/tools/CMSIS-Atmel-1.0.0-Drawbotic.zip",
+                            "archiveFileName": "CMSIS-Atmel-1.0.0-Drawbotic.zip",
                             "checksum": "SHA-256:1eeaf7e743cf9100696b8c451e5d51cd152723190ed20eacc7e2d97f22c70629",
                             "size": "3098086"
                         },
                         {
                             "host": "x86_64-pc-linux-gnu",
-                            "url": "https://sensilab.github.io/board-index/tools/CMSIS-Atmel-1.0.0-SensiLab.zip",
-                            "archiveFileName": "CMSIS-Atmel-1.0.0-SensiLab.zip",
+                            "url": "https://drawbotic.github.io/board-index/tools/CMSIS-Atmel-1.0.0-Drawbotic.zip",
+                            "archiveFileName": "CMSIS-Atmel-1.0.0-Drawbotic.zip",
                             "checksum": "SHA-256:1eeaf7e743cf9100696b8c451e5d51cd152723190ed20eacc7e2d97f22c70629",
                             "size": "3098086"
                         },
                         {
                             "host": "i686-pc-linux-gnu",
-                            "url": "https://sensilab.github.io/board-index/tools/CMSIS-Atmel-1.0.0-SensiLab.zip",
-                            "archiveFileName": "CMSIS-Atmel-1.0.0-SensiLab.zip",
+                            "url": "https://drawbotic.github.io/board-index/tools/CMSIS-Atmel-1.0.0-Drawbotic.zip",
+                            "archiveFileName": "CMSIS-Atmel-1.0.0-Drawbotic.zip",
                             "checksum": "SHA-256:1eeaf7e743cf9100696b8c451e5d51cd152723190ed20eacc7e2d97f22c70629",
                             "size": "3098086"
                         },
                         {
                             "host": "x86_64-apple-darwin",
-                            "url": "https://sensilab.github.io/board-index/tools/CMSIS-Atmel-1.0.0-SensiLab.zip",
-                            "archiveFileName": "CMSIS-Atmel-1.0.0-SensiLab.zip",
+                            "url": "https://drawbotic.github.io/board-index/tools/CMSIS-Atmel-1.0.0-Drawbotic.zip",
+                            "archiveFileName": "CMSIS-Atmel-1.0.0-Drawbotic.zip",
                             "checksum": "SHA-256:1eeaf7e743cf9100696b8c451e5d51cd152723190ed20eacc7e2d97f22c70629",
                             "size": "3098086"
                         }
