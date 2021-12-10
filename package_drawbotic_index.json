@@ -19,8 +19,8 @@
                     },
                     "url": "https://drawbotic.github.io/board-index/packages/drawbotic-arduino-samd-1.0.zip",
                     "archiveFileName": "drawbotic-arduino-samd-1.0.zip",
-                    "checksum": "SHA-256:8dac1617f2bb48fd174564170abd73a1fd555a81574e78cef6f8e83e13f150e6",
-                    "size": "898071",
+                    "checksum": "SHA-256:83ded54d8584926c0fd1d51e09d8164a35ab3215df426c2fb0c16c11f72e63e2",
+                    "size": "947394",
                     "boards": [
                         {
                             "name": "DB-1"
