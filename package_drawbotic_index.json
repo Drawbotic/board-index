@@ -58,9 +58,195 @@
                             "version": "1.2.0"
                         }
                     ]
+                },
+                {
+                    "name": "Drawbotic nRF5 Boards",
+                    "architecture": "nrf52",
+                    "version": "1.0",
+                    "category": "Contributed",
+                    "help": {
+                        "online": "https://drawbotic.io"
+                    },
+                    "url": "https://drawbotic.github.io/board-index/packages/drawbotic-arduino-nrf52-1.0.zip",
+                    "archiveFileName": "drawbotic-arduino-nrf52-1.0.zip",
+                    "checksum": "SHA-256:dceb42927ad3595dc45a46e9e884d99f7d57814f5c791bf5a5cbfab6619186ec",
+                    "size": "114067491",
+                    "boards": [
+                        {
+                            "name": "DB-1"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "drawbotic",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "9-2019q4"
+                        },
+                        {
+                            "packager": "drawbotic",
+                            "name": "nrfjprog",
+                            "version": "9.4.0"
+                        },
+                        {
+                            "packager": "drawbotic",
+                            "name": "CMSIS",
+                            "version": "5.7.0"
+                        }
+                    ]
                 }
             ],
             "tools": [
+                {
+                    "name": "CMSIS",
+                    "version": "5.7.0",
+                    "systems": [
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://drawbotic.github.io/board-index/tools/ARM.CMSIS.5.7.0-Drawbotic.zip",
+                            "archiveFileName": "ARM.CMSIS.5.7.0-Drawbotic.zip",
+                            "checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
+                            "size": "117164633"
+                          },
+                          {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://drawbotic.github.io/board-index/tools/ARM.CMSIS.5.7.0-Drawbotic.zip",
+                            "archiveFileName": "ARM.CMSIS.5.7.0-Drawbotic.zip",
+                            "checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
+                            "size": "117164633"
+                          },
+                          {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://drawbotic.github.io/board-index/tools/ARM.CMSIS.5.7.0-Drawbotic.zip",
+                            "archiveFileName": "ARM.CMSIS.5.7.0-Drawbotic.zip",
+                            "checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
+                            "size": "117164633"
+                          },
+                          {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://drawbotic.github.io/board-index/tools/ARM.CMSIS.5.7.0-Drawbotic.zip",
+                            "archiveFileName": "ARM.CMSIS.5.7.0-Drawbotic.zip",
+                            "checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
+                            "size": "117164633"
+                          },
+                          {
+                            "host": "arm-linux-gnueabihf",
+                            "url": "https://drawbotic.github.io/board-index/tools/ARM.CMSIS.5.7.0-Drawbotic.zip",
+                            "archiveFileName": "ARM.CMSIS.5.7.0-Drawbotic.zip",
+                            "checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
+                            "size": "117164633"
+                          },
+                          {
+                            "host": "aarch64-linux-gnu",
+                            "url": "https://drawbotic.github.io/board-index/tools/ARM.CMSIS.5.7.0-Drawbotic.zip",
+                            "archiveFileName": "ARM.CMSIS.5.7.0-Drawbotic.zip",
+                            "checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
+                            "size": "117164633"
+                          },
+                        {
+                            "host": "all",
+                            "url": "https://drawbotic.github.io/board-index/tools/ARM.CMSIS.5.7.0-Drawbotic.zip",
+                            "archiveFileName": "ARM.CMSIS.5.7.0-Drawbotic.zip",
+                            "checksum": "SHA-256:2518a8b66439b0814f27ddda1d38b890d0f601a25778378a6117e7dd393afc44",
+                            "size": "117164633"
+                        }
+                    ]
+                },
+                {
+                    "name": "arm-none-eabi-gcc",
+                    "version": "9-2019q4",
+                    "systems": [
+                        {
+                            "host": "arm-linux-gnueabihf",
+                            "url": "https://drawbotic.github.io/board-index/tools/arm-none-eabi-gcc/gcc-arm-none-eabi-7-2019-q4-major-linuxarm.tar.bz2",
+                            "archiveFileName": "gcc-arm-none-eabi-7-2019-q4-major-linuxarm.tar.bz2",
+                            "checksum": "SHA-256:34180943d95f759c66444a40b032f7dd9159a562670fc334f049567de140c51b",
+                            "size": "96613739"
+                          },
+                          {
+                            "host": "aarch64-linux-gnu",
+                            "url": "https://drawbotic.github.io/board-index/tools/arm-none-eabi-gcc/gcc-arm-none-eabi-9-2019-q4-major-aarch64-linux.tar.bz2",
+                            "archiveFileName": "gcc-arm-none-eabi-9-2019-q4-major-aarch64-linux.tar.bz2",
+                            "checksum": "SHA-256:1f5b9309006737950b2218250e6bb392e2d68d4f1a764fe66be96e2a78888d83",
+                            "size": "128670769"
+                          },
+                          {
+                            "host": "i686-mingw32",
+                            "url": "https://drawbotic.github.io/board-index/tools/arm-none-eabi-gcc/gcc-arm-none-eabi-9-2019-q4-major-win32.zip",
+                            "archiveFileName": "gcc-arm-none-eabi-9-2019-q4-major-win32.zip",
+                            "checksum": "SHA-256:54e0879b78937cf74a548f9fd242cdfd703bec9fe135d2bb4f56acf5c05d6d61",
+                            "size": "153520070"
+                          },
+                          {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://drawbotic.github.io/board-index/tools/arm-none-eabi-gcc/gcc-arm-none-eabi-9-2019-q4-major-mac.tar.bz2",
+                            "archiveFileName": "gcc-arm-none-eabi-9-2019-q4-major-mac.tar.bz2",
+                            "checksum": "SDA-256:1249f860d4155d9c3ba8f30c19e7a88c5047923cea17e0d08e633f12408f01f0",
+                            "size": "116770520"
+                          },
+                          {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://drawbotic.github.io/board-index/tools/arm-none-eabi-gcc/gcc-arm-none-eabi-9-2019-q4-major-x86_64-linux.tar.bz2",
+                            "archiveFileName": "gcc-arm-none-eabi-9-2019-q4-major-x86_64-linux.tar.bz2",
+                            "checksum": "SHA-256:bcd840f839d5bf49279638e9f67890b2ef3a7c9c7a9b25271e83ec4ff41d177a",
+                            "size": "116802378"
+                          },
+                          {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://drawbotic.github.io/board-index/tools/arm-none-eabi-gcc/gcc-arm-none-eabi-7-2018-q2-update-linux32.tar.bz2",
+                            "archiveFileName": "gcc-arm-none-eabi-7-2018-q2-update-linux32.tar.bz2",
+                            "checksum": "SHA-256:090a0bc2b1956bc49392dff924a6c30fa57c88130097b1972204d67a45ce3cf3",
+                            "size": "97427309"
+                          }
+                    ]
+                },
+                {
+                    "name": "nrfjprog",
+                    "version": "9.4.0",
+                    "systems": [
+                        {
+                            "host": "i386-apple-darwin11",
+                            "url": "https://drawbotic.github.io/board-index/tools/nrfjprog/nrfjprog-9.4.0-mac.tar.bz2",
+                            "archiveFileName": "nrfjprog-9.4.0-mac.tar.bz2",
+                            "checksum": "SHA-256:44ea641461c6d497fe171f27be71c0723869f858fba704b63ec20428ad36e332",
+                            "size": "362222"
+                          },
+                          {
+                            "host": "i686-linux-gnu",
+                            "url": "https://drawbotic.github.io/board-index/tools/nrfjprog/nrfjprog-9.4.0-linux32.tar.bz2",
+                            "archiveFileName": "nrfjprog-9.4.0-linux32.tar.bz2",
+                            "checksum": "SHA-256:8d8e546dc36954bc7f4ce169db44129043604ad6764a3721bde2436b0fb57a52",
+                            "size": "177428"
+                          },
+                          {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://drawbotic.github.io/board-index/tools/nrfjprog/nrfjprog-9.4.0-linux64.tar.bz2",
+                            "archiveFileName": "nrfjprog-9.4.0-linux64.tar.bz2",
+                            "checksum": "SHA-256:498470e2c94affcd56d77637a02ac09e6c6994d768d8a9675c0d07da56d4e769",
+                            "size": "190020"
+                          },
+                          {
+                            "host": "i686-mingw32",
+                            "url": "https://drawbotic.github.io/board-index/tools/nrfjprog/nrfjprog-9.4.0-win32.tar.bz2",
+                            "archiveFileName": "nrfjprog-9.4.0-win32.tar.bz2",
+                            "checksum": "SHA-256:f7790939f9f22dafe566fa14f059c80e74e123f2ad07edab19841e150d103a66",
+                            "size": "851576"
+                          },
+                          {
+                            "host": "arm-linux-gnueabihf",
+                            "url": "https://drawbotic.github.io/board-index/tools/nrfjprog/nrfjprog-10.15.0-arm.tar.bz2",
+                            "archiveFileName": "nrfjprog-10.15.0-arm.tar.bz2",
+                            "checksum": "SHA-256:8c2f99c7bc7a938c621aec2351f566f33376d35c8ab4b39ea339f51250fe19ad",
+                            "size": "2794097"
+                          },
+                          {
+                            "host": "aarch64-linux-gnu",
+                            "url": "https://drawbotic.github.io/board-index/tools/nrfjprog/nrfjprog-10.15.0-arm.tar.bz2",
+                            "archiveFileName": "nrfjprog-10.15.0-arm.tar.bz2",
+                            "checksum": "SHA-256:8c2f99c7bc7a938c621aec2351f566f33376d35c8ab4b39ea339f51250fe19ad",
+                            "size": "2794097"
+                          }
+                    ]
+                },
                 {
                     "name": "CMSIS-Atmel",
                     "version": "1.0.0-Drawbotic",
