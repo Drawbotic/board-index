@@ -93,6 +93,41 @@
                             "version": "5.7.0"
                         }
                     ]
+                },
+                {
+                    "name": "Drawbotic nRF5 Boards",
+                    "architecture": "nrf52",
+                    "version": "1.1",
+                    "category": "Contributed",
+                    "help": {
+                        "online": "https://drawbotic.io"
+                    },
+                    "url": "https://drawbotic.github.io/board-index/packages/drawbotic-arduino-nrf52-1.1.zip",
+                    "archiveFileName": "drawbotic-arduino-nrf52-1.1.zip",
+                    "checksum": "SHA-256:068319c722841b70c68cf33d2d81697a91e7ab8e038404cc35c936e66968f660",
+                    "size": "115599234",
+                    "boards": [
+                        {
+                            "name": "DB-1"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "drawbotic",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "9-2019q4"
+                        },
+                        {
+                            "packager": "drawbotic",
+                            "name": "nrfjprog",
+                            "version": "9.4.0"
+                        },
+                        {
+                            "packager": "drawbotic",
+                            "name": "CMSIS",
+                            "version": "5.7.0"
+                        }
+                    ]
                 }
             ],
             "tools": [
