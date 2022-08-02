@@ -215,7 +215,7 @@
                             "host": "x86_64-apple-darwin",
                             "url": "https://drawbotic.github.io/board-index/tools/arm-none-eabi-gcc/gcc-arm-none-eabi-9-2019-q4-major-mac.tar.bz2",
                             "archiveFileName": "gcc-arm-none-eabi-9-2019-q4-major-mac.tar.bz2",
-                            "checksum": "SDA-256:1249f860d4155d9c3ba8f30c19e7a88c5047923cea17e0d08e633f12408f01f0",
+                            "checksum": "SHA-256:1249f860d4155d9c3ba8f30c19e7a88c5047923cea17e0d08e633f12408f01f0",
                             "size": "116770520"
                           },
                           {
