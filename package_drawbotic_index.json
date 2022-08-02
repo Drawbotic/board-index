@@ -104,7 +104,7 @@
                     },
                     "url": "https://drawbotic.github.io/board-index/packages/drawbotic-arduino-nrf52-1.1.zip",
                     "archiveFileName": "drawbotic-arduino-nrf52-1.1.zip",
-                    "checksum": "SHA-256:068319c722841b70c68cf33d2d81697a91e7ab8e038404cc35c936e66968f660",
+                    "checksum": "SHA-256:fa1d6a4530c59d0f89ce9f96ae92b4f0efc2d5ba03bb6236a6ebc244e66d93ed",
                     "size": "115599234",
                     "boards": [
                         {
